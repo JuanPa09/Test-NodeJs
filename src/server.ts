@@ -22,3 +22,5 @@ connectToDatabase().then(()=>{
         console.log(`Servidor corriendo en el puerto ${process.env.PORT || 5000}`)
     })
 })
+
+export default app;
